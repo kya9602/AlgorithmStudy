@@ -1,3 +1,5 @@
+//최소직사각형 구하기
+
 function solution(sizes) {
     let w = [];
     let h = [];
