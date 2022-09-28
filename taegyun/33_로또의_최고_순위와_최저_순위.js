@@ -6,13 +6,13 @@ let result = [];
 
 
 for(i=0;i<lottos.length;i++){
-    console.log('i가'+i+'일때')
+    //console.log('i가'+i+'일때')
     if(lottos[i]===0){
         zero++;
     }
 
     for(j=0;j<win_nums.length;j++){
-        console.log('j는 '+j)
+        //console.log('j는 '+j)
         if(lottos[i]===win_nums[j]){
             count++;            
         }
@@ -28,7 +28,7 @@ if(count+zero===6){
     result.push(3);
 }else if(count+zero===3){
     result.push(4);
-}else if(count+zero===2){
+}else if(count+zero===2){ 
     result.push(5);
 }else{
     result.push(6);
